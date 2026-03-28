@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@plugin "./hero.js";
+
+/* Adjust this path if node_modules is elsewhere, but this is standard */
+@source "../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}";
+
+@custom-variant dark (&:is(.dark *));

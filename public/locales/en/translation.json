@@ -1,0 +1,54 @@
+{
+  "navbar": {
+    "home": "Home",
+    "diagnoses": "Diagnoses",
+    "first_aid": "First Aid",
+    "contact_us": "Contact Us",
+    "english": "English",
+    "arabic": "العربية",
+    "sign_in": "Sign In",
+    "sign_up": "Sign Up"
+  },
+  "firstaid": {
+    "title": "Enter a description of your pain"
+  },
+  "about": {
+    "contact_info_title": "CONTACT INFO",
+    "phone": "Phone",
+    "fax": "Fax",
+    "email": "Email",
+    "contact_title": "CONTACT",
+    "send_message_title": "SEND US A QUICK MESSAGE",
+    "send_message_desc": "You can send us if there any problem and we will fix it quickly",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "email_name": "Email Address",
+    "message": "Message",
+    "submit": "SEND MESSAGE"
+  },
+  "slides": {
+    "slide0": {
+      "title": "Online Diagnostics",
+      "text": "Our service offers you many advantages..\nLike providing you with a robotic doctor\nIt displays a list of symptoms that you\ncan choose from and provides you with\nthe necessary diagnosis\nand more information as well.",
+      "linkText": "check now"
+    },
+    "slide1": {
+      "title": "Online Doctor",
+      "text": "You can also open a session with a real doctor...\nthrough our service\nwithout the need to make an effort.",
+      "linkText": "Make session"
+    },
+    "slide2": {
+      "title": "Online First Aid",
+      "text": "You can get information on first aid..\nhelp people with your self,\nand save their lives.",
+      "linkText": "Have Help"
+    }
+  },
+  "predict": {
+    "overview": "Overview",
+    "causes": "Causes",
+    "risk_factors": "Risk Factors",
+    "repredict": "RePredict",
+    "predict_button": "Predict",
+    "body_parts": "Body Parts"
+  }
+}

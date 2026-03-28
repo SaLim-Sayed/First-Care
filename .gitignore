@@ -1,6 +1,15 @@
+*.crt
+*.env
+*.key
+*.log
+*.pem
+.DS_Store
 .env
 .env.*
-*.env
+.env.development
 .env.local
 .env.production
-.env.development
+build/
+coverage/
+dist/
+node_modules/
