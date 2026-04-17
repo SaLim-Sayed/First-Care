@@ -40,7 +40,7 @@ export default function Slides() {
   ];
 
   return (
-    <div className="bg-[var(--bg-color)] pt-10 flex items-center transition-colors duration-300" dir={i18n.language === 'ar' ? 'rtl' : 'ltr'}>
+    <div className="bg-(--bg-color) pt-10 flex items-center transition-colors duration-300" dir={i18n.language === 'ar' ? 'rtl' : 'ltr'}>
       <div className="container mx-auto px-4 relative">
         <div className="w-full">
           <Swiper
@@ -61,8 +61,8 @@ export default function Slides() {
             {slidesData.map((slide, index) => (
               <SwiperSlide key={index}>
                 <div className="px-4 py-12">
-                  <div className="bg-[var(--card-bg)] rounded-[3rem] p-10 lg:p-16 shadow-xl border border-[var(--border-color)] flex flex-col lg:flex-row items-center gap-12 max-w-6xl mx-auto relative overflow-hidden transition-all duration-300">
-                    <div className="absolute top-0 right-0 w-64 h-64 bg-[#0091ff]/5 rounded-full -mr-32 -mt-32 blur-3xl"></div>
+                  <div className=" rounded-[3rem] p-10 lg:p-16  flex flex-col lg:flex-row items-center gap-12 max-w-6xl mx-auto relative overflow-hidden transition-all duration-300">
+                    <div className="absolute top-0 right-0 w-64 h-64   rounded-full -mr-32 -mt-32 blur-3xl"></div>
 
                     {/* Text Content */}
                     <div className={`flex-1 text-center lg:text-left ${i18n.language === 'ar' ? 'lg:text-right' : ''}`}>

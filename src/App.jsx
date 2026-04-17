@@ -9,6 +9,7 @@ import Chatbot from "./front/component/Home/Chatbot";
 import About from "./front/component/About/About";
 import FirstAid from "./front/component/FirstAid/FirstAid";
 import Main from "./front/component/Main";
+import DoctorsNearby from "./front/component/Doctors/DoctorsNearby";
 import Navbar from "./front/component/NavBar/Navbar";
 import { ThemeProvider } from "./front/context/ThemeContext";
 
@@ -31,6 +32,8 @@ function App() {
 
         <Route exact path="/:lng(en|ar)?/About" component={About} />
         <Route exact path="/:lng(en|ar)?/FirstAid" component={FirstAid} />
+
+        <Route exact path="/:lng(en|ar)?/Doctors" component={DoctorsNearby} />
 
         {/* Support legacy paths */}
         <Route exact path="/Care-Me" render={() => <Redirect to="/en" />} />

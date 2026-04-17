@@ -7,7 +7,7 @@ import Footer from './../Footer/Footer';
 function Chatbot() {
   return (
     <>
-      <div className="bg-[var(--bg-color)] min-h-screen transition-colors duration-300">
+      <div className="bg-(--bg-color) min-h-screen transition-colors duration-300">
         <Navbar />
         <Slides />
         <Footer />

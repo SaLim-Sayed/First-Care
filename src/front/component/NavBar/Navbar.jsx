@@ -67,6 +67,7 @@ export default function _Navbar() {
               <Link className={getTabClass(`/${i18n.language}`)} to={`/${i18n.language}`}>{t('navbar.home')}</Link>
               <Link className={getTabClass(`/${i18n.language}/Prediction`)} to={`/${i18n.language}/Prediction`}>{t('navbar.diagnoses')}</Link>
               <Link className={getTabClass(`/${i18n.language}/FirstAid`)} to={`/${i18n.language}/FirstAid`}>{t('navbar.first_aid')}</Link>
+              <Link className={getTabClass(`/${i18n.language}/Doctors`)} to={`/${i18n.language}/Doctors`}>{isAr ? 'أطبــاء' : 'Doctors'}</Link>
               <Link className={getTabClass(`/${i18n.language}/About`)} to={`/${i18n.language}/About`}>{t('navbar.contact_us')}</Link>
             </div>
 
